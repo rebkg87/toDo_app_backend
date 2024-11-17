@@ -12,6 +12,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @RestController
+@CrossOrigin(origins = "http://localhost:8080", allowCredentials = "true")
 @RequestMapping("/api/tasks")
 public class TaskController {
 
